@@ -38,13 +38,13 @@ This project explores Fourier Spectral Imaging techniques by implementing modula
 
 ## Usage
 ### Running the Code
-1. Place your input image in the `images` directory.
+1. Place your input image in the `assets` directory.
 2. Modify the script to specify the input image path and desired filter settings (e.g., `tau` for frequency threshold).
 3. Run the script:
    ```bash
    python spectral_filtering.py
    ```
-4. View the filtered images, which will be saved in the `outputs` directory.
+4. View the filtered images, which will be saved in the same directory.
 
 ### Parameters
 - **`tau`:** Threshold value used to separate high and low frequencies. Adjust `tau` to modify the filtering effect.
@@ -64,8 +64,7 @@ This project explores Fourier Spectral Imaging techniques by implementing modula
 ## Project Structure
 ```
 Fourier-Spectral-Imaging/
-├── images/               # Input image files
-├── outputs/              # Filtered output images
+├── assets/               # Image files
 ├── spectral_filtering.py # Main script
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
